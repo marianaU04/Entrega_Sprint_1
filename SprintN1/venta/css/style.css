@@ -1,0 +1,29 @@
+h1{
+    background-color:#B7A7B7;
+    border-radius: 15px;
+    padding: 7px;
+    margin: auto;
+}
+
+legend{
+    font-size:1.9rem;
+}
+input{
+    border: 5px solid thistle;
+    text-align: center;
+    font-size: 1.3rem;
+}
+input:focus{
+    border-color:#8B878B;
+}
+fieldset{
+    background-color: #AC9FAC;
+}
+div{
+    font-size:1.2rem;
+}
+button{
+    border-radius: 15px;
+    font-size: 1.5rem;
+    background-color: #BFD8BF;
+}

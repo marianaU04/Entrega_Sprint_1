@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-image: url(https://image.freepik.com/vector-gratis/papel-pintado-tecnologico-futurista_79603-1093.jpg);
+    color: white;
+    padding: 215px 100px;
+    text-align: left;
+}
+
+body{
+    background-color: #EBC5EB;
+}
+
+#navbar{
+    padding: 15px;
+    background-color: lightgray;
+    border:4px solid black;
+}
+
+#sisas{
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+#sisas #uli{
+    display: inline-block;
+    margin: 0px 50px 0px 260px;
+}
+#uli{
+    font-size: 1.5rem;
+}
+article{
+    margin: 40px 100px auto;
+    padding: 45px;
+    font-size: 1.4rem;
+}
+
+#footer{
+    background-color: darkslategray;
+    color: white;
+}
+
+#footer fieldset{
+    border: 4px solid white;
+}
+h1{
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+table{
+    border:5px solid black;
+    text-align: center;
+    background-color: black;
+    font-size: 2rem;
+    position: relative;
+}
+thead td{
+    border: 5px solid lightgray;
+    background-color:lightgray;
+}
+tbody td{
+    border: 10px solid #EBC5EB;
+    background-color:#EBC5EB;
+}
+table img{
+    width: 200px;
+    height: 250px;
+}
+
+.asus{
+    width:220px;
+    height:250px;
+}
+.macbook{
+    width: 260px;
+    height: 300px;
+}
+.lenovo{
+    width: 230px;
+    height: 200px;
+}

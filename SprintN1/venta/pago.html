@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Pagos</h1>
+        </center>
+    </header>
+    <main>
+        <center>
+        <fieldset id="parte1">
+            <legend><b>Sección de pago</b></legend>
+            <h2>Nombre</h2>
+            <input type="text" id="nombre">
+            <h2>Cantidad de computadores</h2>
+            <input type="text" id="cantidad"><br><br>
+            <button type="button" id="button">Calcular</button>
+        </fieldset>
+        <fieldset id="parte2">
+            <legend><b>Valor de las compras</b></legend>
+            <h2>Valor</h2>
+            <input type="text" id="valor" readonly>
+            <h2>Descuento</h2>
+            <input type="text" id="descuento" readonly>
+            <h2>Total</h2>
+            <input type="text" id="total" readonly><br><br>
+            <div id="porcentaje"></div>
+            <script src="script/script.js"></script>
+        </fieldset>
+        </center>
+    </main>
+</body>
+</html>
